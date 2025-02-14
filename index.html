@@ -4,53 +4,70 @@
     <title>chatbot</title>
     <style>
       #main {
-        width: 650px;
-        height: 500px;
-        border: 1px solid black;
+        width: 600px;
+        height: 480px;
+        padding: 50px;
         margin: auto;
         font-family: sans-serif;
-        padding: 50px;
+        border: 1px solid black;
       }
+
+      #heading {
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 300;
+        font-size: 55px;
+        margin-top: 0px;
+      }
+
       #line {
         width: 100px;
         height: 0px;
-        border: 1px solid black;
+        border: 1.5px solid black;
       }
-      .heading {
-        color: rgba(0, 0, 0, 0.6);
-        font-weight: 200;
-        font-size: 50px;
-      }
-      .content {
+
+      #content {
         color: rgba(0, 0, 0, 0.5);
         font-weight: 100;
-        font-size: 25px;
+        font-size: 30px;
+        word-spacing: 3px;
       }
+
       #button {
-        width: 500px;
-        height: 50px;
+        width: 600px;
+        height: 60px;
         background-color: #4184e1;
         border-radius: 50px;
         text-align: center;
         color: white;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 25px;
         margin: auto;
+      }
+
+      #footer {
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30px;
+        word-spacing: 4px;
       }
     </style>
   </head>
   <body>
     <div id="main">
-      <h1 class="heading">Build your first chatbot in 10 minutes!</h1>
+      <h1 id="heading">Build your first chatbot in 10 minutes!</h1>
       <div id="line"></div>
-      <p class="content">
+      <p id="content">
         Have a bot answering questions from customers on your website within 10
         minutes of signing up for ChatBot
       </p>
       <div id="button">
-        <p style="padding: 15px">try now</p>
+        <p style="padding: 15px">try now &rightarrow;</p>
       </div>
-      <p class ="content">By clicking try now you create an account and agree to our Terms and Conditions and Privacy Polocy.</p>
+      <p id="footer">
+        By clicking try now you create an account and agree to our Terms and
+        Conditions and Privacy Polocy.
+      </p>
     </div>
   </body>
 </html>
